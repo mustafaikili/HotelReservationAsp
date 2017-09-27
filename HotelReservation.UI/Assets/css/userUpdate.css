@@ -1,0 +1,369 @@
+
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* start editing from here */
+a {
+    text-decoration: none;
+}
+
+.txt-rt {
+    text-align: right;
+}
+/* text align right */
+.txt-lt {
+    text-align: left;
+}
+/* text align left */
+.txt-center {
+    text-align: center;
+}
+/* text align center */
+.float-rt {
+    float: right;
+}
+/* float right */
+.float-lt {
+    float: left;
+}
+/* float left */
+.clear {
+    clear: both;
+}
+/* clear float */
+.pos-relative {
+    position: relative;
+}
+/* Position Relative */
+.pos-absolute {
+    position: absolute;
+}
+/* Position Absolute */
+.vertical-base {
+    vertical-align: baseline;
+}
+/* vertical align baseline */
+.vertical-top {
+    vertical-align: top;
+}
+/* vertical align top */
+nav.vertical ul li {
+    display: block;
+}
+/* vertical menu */
+nav.horizontal ul li {
+    display: inline-block;
+}
+/* horizontal menu */
+img {
+    max-width: 100%;
+}
+/*end reset*/
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    margin: 0;
+}
+
+a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+    a:hover {
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+
+.wrap {
+    width: 34%;
+    margin: 2em auto 0;
+}
+/*--profile start here--*/
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+    color: #FFFFFF !important;
+}
+
+.w3ls-subscribe {
+    background: url(../images/4.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+
+.agileits-border {
+    border: solid 15px rgba(1, 1, 1, 0.37);
+    padding: 3em;
+}
+
+.agileits-border1 {
+    min-height: 484px;
+}
+
+.w3ls-subscribe1 {
+    background: url(../images/3.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+
+.w3ls-subscribe h3 {
+    color: #FFFFFF;
+    font-size: 2em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.w3ls-subscribe input[type="email"], .w3ls-subscribe input[type="text"], .w3ls-subscribe input[type="password"] {
+    outline: none;
+    padding: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #FFFFFF;
+    font-size: .9em;
+    margin: 0 0 1.5em 0;
+    width: 93%;
+}
+
+.w3ls-subscribe input[type="submit"] {
+    color: #000000;
+    font-size: .9em;
+    text-decoration: none;
+    padding: 1em 2em;
+    cursor: pointer;
+    background: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    border: solid 1px #ffffff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+    .w3ls-subscribe input[type="submit"]:hover {
+        background: #0d8cc6;
+        border: solid 1px #0d8cc6;
+        color: #ffffff;
+    }
+
+.w3ls-subscribe h4 {
+    color: #FFFFFF;
+    font-size: 1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.w3ls-subscribe p {
+    color: #FFFFFF;
+    font-size: .9em;
+    margin: 1em 0;
+    line-height: 1.8em;
+}
+
+.wthree_footer_copy {
+    margin: 2em 0 0 0;
+    text-align: center;
+}
+
+    .wthree_footer_copy p {
+        font-size: .9em;
+        color: #FFFFFF;
+    }
+
+        .wthree_footer_copy p a {
+            color: #FFFFFF;
+        }
+
+            .wthree_footer_copy p a:hover {
+                color: #000000;
+            }
+
+/*-- responsive --*/
+@media(max-width:1440px) {
+    .wrap {
+        width: 40%;
+    }
+}
+
+@media(max-width:1280px) {
+    .wrap {
+        width: 45%;
+    }
+}
+
+@media(max-width:1080px) {
+    .wrap {
+        width: 55%;
+    }
+}
+
+@media(max-width:900px) {
+    .wrap {
+        width: 65%;
+    }
+}
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media(max-width:736px) {
+    .agile-signin h4 {
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width:667px) {
+    .wrap {
+        width: 71%;
+    }
+}
+
+@media(max-width:640px) {
+    .wrap {
+        width: 75%;
+    }
+}
+
+@media(max-width:600px) {
+    .agileits-border {
+        padding: 2em;
+    }
+}
+
+@media(max-width:480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .wrap {
+        width: 85%;
+    }
+
+    .agileits-border1 {
+        min-height: 509px;
+    }
+
+    .callbacks_tabs {
+        top: 112%;
+    }
+}
+
+@media(max-width:414px) {
+    .agileits-border {
+        padding: 1em;
+    }
+
+    .agileinfo-follow {
+        margin: 3em 0 2em 0;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+}
+
+@media(max-width:384px) {
+    .w3ls-subscribe input[type="email"], .w3ls-subscribe input[type="text"], .w3ls-subscribe input[type="password"] {
+        width: 88%;
+    }
+
+    .agileinfo-follow {
+        margin: 2em 0 1em 0;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width:375px) {
+    body {
+        padding: 2em 0;
+    }
+}
+
+@media(max-width:320px) {
+    .agileits-border1 {
+        min-height: 534px;
+    }
+
+    .agileinfo-social-grids ul a i.fa {
+        height: 25px;
+        width: 25px;
+        line-height: 24px;
+    }
+
+    h1 {
+        font-size: 1.1em;
+    }
+
+    .callbacks_tabs {
+        left: 43%;
+    }
+}
+/*-- //responsive --*/

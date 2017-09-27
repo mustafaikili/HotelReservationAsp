@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelReservation.UI", "HotelReservation.UI\HotelReservation.UI.csproj", "{15E48C08-28D1-4D99-A48E-25DA85B5B74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelReservation.Core", "HotelReservation.Core\HotelReservation.Core.csproj", "{74437328-6728-4E74-BB61-B577F1F9CD20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelReservation.Business", "HotelReservation.Business\HotelReservation.Business.csproj", "{FF7C5D56-0B55-4F2C-9404-C7E9241573D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelReservation.Model", "HotelReservation.Model\HotelReservation.Model.csproj", "{A7F543CE-0EB2-4C1B-99D6-1B91D94B06AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelReservation.DataAccess", "HotelReservation.DataAccess\HotelReservation.DataAccess.csproj", "{14BE451A-5672-404D-AF50-3FD38604108D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelReservation.UserInterface", "HotelReservation.UserInterface\HotelReservation.UserInterface.csproj", "{5008B89B-1CE6-409D-B2C3-60B02684B50C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://indiateamproject.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HotelReservation.UI\\HotelReservation.UI.csproj
+		SccProjectName1 = HotelReservation.UI
+		SccLocalPath1 = HotelReservation.UI
+		SccProjectUniqueName2 = HotelReservation.Core\\HotelReservation.Core.csproj
+		SccProjectName2 = HotelReservation.Core
+		SccLocalPath2 = HotelReservation.Core
+		SccProjectUniqueName3 = HotelReservation.Business\\HotelReservation.Business.csproj
+		SccProjectName3 = HotelReservation.Business
+		SccLocalPath3 = HotelReservation.Business
+		SccProjectUniqueName4 = HotelReservation.Model\\HotelReservation.Model.csproj
+		SccProjectName4 = HotelReservation.Model
+		SccLocalPath4 = HotelReservation.Model
+		SccProjectUniqueName5 = HotelReservation.DataAccess\\HotelReservation.DataAccess.csproj
+		SccProjectName5 = HotelReservation.DataAccess
+		SccLocalPath5 = HotelReservation.DataAccess
+		SccProjectUniqueName6 = HotelReservation.UserInterface\\HotelReservation.UserInterface.csproj
+		SccProjectName6 = HotelReservation.UserInterface
+		SccLocalPath6 = HotelReservation.UserInterface
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15E48C08-28D1-4D99-A48E-25DA85B5B74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E48C08-28D1-4D99-A48E-25DA85B5B74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E48C08-28D1-4D99-A48E-25DA85B5B74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E48C08-28D1-4D99-A48E-25DA85B5B74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74437328-6728-4E74-BB61-B577F1F9CD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74437328-6728-4E74-BB61-B577F1F9CD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74437328-6728-4E74-BB61-B577F1F9CD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74437328-6728-4E74-BB61-B577F1F9CD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7C5D56-0B55-4F2C-9404-C7E9241573D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7C5D56-0B55-4F2C-9404-C7E9241573D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7C5D56-0B55-4F2C-9404-C7E9241573D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7C5D56-0B55-4F2C-9404-C7E9241573D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F543CE-0EB2-4C1B-99D6-1B91D94B06AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F543CE-0EB2-4C1B-99D6-1B91D94B06AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F543CE-0EB2-4C1B-99D6-1B91D94B06AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F543CE-0EB2-4C1B-99D6-1B91D94B06AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BE451A-5672-404D-AF50-3FD38604108D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BE451A-5672-404D-AF50-3FD38604108D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BE451A-5672-404D-AF50-3FD38604108D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BE451A-5672-404D-AF50-3FD38604108D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5008B89B-1CE6-409D-B2C3-60B02684B50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5008B89B-1CE6-409D-B2C3-60B02684B50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5008B89B-1CE6-409D-B2C3-60B02684B50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5008B89B-1CE6-409D-B2C3-60B02684B50C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
